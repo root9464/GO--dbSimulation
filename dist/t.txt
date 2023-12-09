@@ -1,0 +1,18 @@
+package main
+
+import (
+	
+	actions "root/actions.user"
+	color "root/colors"
+)
+
+
+func main() {
+
+	// actions.Delete(actions.User{Name: "ff"})
+	actions.C.CreateUsers("f")
+	color.Color(color.Colors[4], "main package")
+}
+
+
+
